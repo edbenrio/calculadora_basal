@@ -2,7 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="./style.css" />
-
+        <script src="./script.js" defer></script>
         <title>Calculadora Basal</title>
     </head>
     <body>
@@ -11,8 +11,14 @@
                 <div class="contenido">
                     <h1>Hidratación basal</h1>
                     <p>Ingrese el peso en KG</p>
-                    <input type="number" placeholder="Peso en kg">
-                    <button>Calcular</button>
+                    <input id="peso" type="number" placeholder="Peso en kg">
+                    <div id="error">
+                        <span>El valor ingresado no es válido</span>
+                    </div>
+                    <button id="calcular">Calcular</button>
+                    <div>
+                        <h3 id="resultado"></h3>
+                    </div>
                 </div>
             </div>
             
