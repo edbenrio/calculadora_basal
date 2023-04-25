@@ -2,7 +2,6 @@
     width: 900px;
     height: 500px;
     text-align: center;
-    /* Estas 3 lineas se encargan de centrar el div vertical y horizontalmente */
     position: absolute;
     inset: 0;
     margin: auto;
@@ -13,7 +12,6 @@
 }
 #calculadora{
     background: white;
-    /* Con estas 3 lineas vamos a hacer que los divs queden lado a lado */
     width: 50%;
     height: 100%;
     float: left;
@@ -21,14 +19,12 @@
 
 #detalle{
     background: #FF416C;
-    /* Con estas 3 lineas vamos a hacer que los divs queden lado a lado */
     width: 50%;
     height: 100%;
     float: left;
     color: #f6f5f7;
 }
 .contenido{
-    /* Estas tres lineas van a centrar el contenido verticalmente dentro de cada div */
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -69,6 +65,16 @@ button:active {
     color: #0A81D1;
     font-weight: bold;
     font-size: 25px;
-    margin-bottom: 5px;
-    display: none;
+    margin-bottom: 10px;
+}
+table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+    border-radius:  10px;
+}
+  
+td, th {
+    border: 1px solid #ccc;
+    border-radius:  10px;
 }
